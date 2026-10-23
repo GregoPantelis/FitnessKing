@@ -1,0 +1,6 @@
+@FitnessKing.Api_HostAddress = http://localhost:5017
+
+GET {{FitnessKing.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
