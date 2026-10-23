@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.32" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.32">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\FitnessKing.Application.Configuration\FitnessKing.Application.Configuration.csproj" />
+    <ProjectReference Include="..\..\Application\FitnessKing.Application.Interfaces\FitnessKing.Application.Interfaces.csproj" />
+    <ProjectReference Include="..\..\Domain\FitnessKing.Domain.Types\FitnessKing.Domain.Types.csproj" />
+  </ItemGroup>
+
+</Project>

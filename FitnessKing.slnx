@@ -1,0 +1,23 @@
+<Solution>
+  <Folder Name="/API/">
+    <Project Path="src/API/FitnessKing.Api/FitnessKing.Api.csproj" Id="8075bc34-0c79-41e9-a615-d41fe9443a4e" />
+  </Folder>
+  <Folder Name="/Application/">
+    <Project Path="src/Application/FitnessKing.Application.Services/FitnessKing.Application.Services.csproj" Id="6c58f6d7-4fe7-49b2-8eb1-a803b3290d76" />
+    <Project Path="src/Application/FitnessKing.Application.Configuration/FitnessKing.Application.Configuration.csproj" Id="e3ca3435-de9a-45d9-89b9-bf512440a09d" />
+    <Project Path="src/Application/FitnessKing.Application.DataObjects/FitnessKing.Application.DataObjects.csproj" Id="3c3e61ee-a471-47d5-805f-dee463da236a" />
+    <Project Path="src/Application/FitnessKing.Application.DependencyInjection/FitnessKing.Application.DependencyInjection.csproj" Id="629091ba-822a-4573-8114-2104d174011f" />
+    <Project Path="src/Application/FitnessKing.Application.Interfaces/FitnessKing.Application.Interfaces.csproj" Id="11faf11e-f7d3-4845-ba7a-2666943bdf00" />
+  </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="src/Domain/FitnessKing.Domain.Entities/FitnessKing.Domain.Entities.csproj" Id="73728fcc-3bd1-4f3f-a114-785fa3de9928" />
+    <Project Path="src/Domain/FitnessKing.Domain.Types/FitnessKing.Domain.Types.csproj" Id="735701fb-0cc6-4406-9ece-a22b9eca2273" />
+  </Folder>
+  <Folder Name="/Infrastructure/">
+    <Project Path="src/Infrastructure/FitnessKing.Infrastructure.Authentication/FitnessKing.Infrastructure.Authentication.csproj" Id="b1581702-f12d-4e14-9d02-e0521e328ac1" />
+    <Project Path="src/Infrastructure/FitnessKing.Infrastructure.Configuration/FitnessKing.Infrastructure.Configuration.csproj" Id="f35e0b08-5cde-4686-9f76-1fe563acfea0" />
+    <Project Path="src/Infrastructure/FitnessKing.Infrastructure.DependencyInjection/FitnessKing.Infrastructure.DependencyInjection.csproj" Id="20a2a29f-0941-4de2-bf51-55c156de054d" />
+    <Project Path="src/Infrastructure/FitnessKing.Infrastructure.ExternalApis/FitnessKing.Infrastructure.ExternalApis.csproj" Id="f66debe5-d28e-4248-b262-0e4537928704" />
+    <Project Path="src/Infrastructure/FitnessKing.Infrastructure.Persistance/FitnessKing.Infrastructure.Persistance.csproj" Id="a10e30da-6c35-4456-b640-c7a292dbc59e" />
+  </Folder>
+</Solution>
